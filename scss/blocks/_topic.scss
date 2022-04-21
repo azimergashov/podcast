@@ -1,0 +1,134 @@
+.topic{
+    margin-bottom: 100px;
+    &__top{
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+    }
+
+    &__top-img{
+        position: relative;
+        top: -70px;
+        left: -20px;
+    }
+
+    &__top-right-heading{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    &__top-right-text{
+
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
+
+    &__top-button{
+        color: #1C1B1E;
+        border: 1px solid #BD87DE;
+        padding: 10px 27px;
+    }
+
+    &__top-button:hover{
+        color: #1C1B1E;
+        border: 1px solid #1C1B1E;
+        padding: 10px 27px;
+    }
+
+
+    &__bottom-top-heading{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 52px;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+    }
+
+    &__bottom-top-link{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+
+        color: #6C22C9;
+    }
+
+    &__bottom-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    &__list{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item + &__item{
+        margin-left: 30px;
+    }
+    &__item-img{
+        margin-bottom: 18px;
+    }
+    &__item-heading{
+        margin-bottom: 8px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+    }
+
+    &__item-text{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #000000;
+
+        opacity: 0.7;
+    }
+}

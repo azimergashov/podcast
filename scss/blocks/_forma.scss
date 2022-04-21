@@ -1,0 +1,42 @@
+.forma {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    &__button{
+        background: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+        border-radius: 5px;
+        padding: 14px 36px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+
+
+}
+.footer-input{
+    background-color: #17044D;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footer-input:active{
+    background-color: #17044D;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

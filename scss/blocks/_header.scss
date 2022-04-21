@@ -1,0 +1,78 @@
+.siteheader{
+    padding-bottom: 125px;
+    background-color: #6C22C9;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px 122px;
+    }
+
+    &__right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__button{
+        padding: 9px 35px;
+    }
+
+
+}
+
+
+
+.sitenav{
+    &__button{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        opacity: 0.8;
+        border-bottom: 2px solid #6C22C9;
+
+    }
+
+    &__button:hover{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        opacity: 0.8;
+        border-bottom: 2px solid #FFFFFF;
+
+    }
+
+    &__button:active{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        opacity: 0.8;
+        border-bottom: 2px solid #FFFFFF;
+        background-color: #BD87DE;
+
+    }
+    margin-right: 53px;
+
+    &__button + &__button{
+        padding-left: 30px;
+    }
+
+}

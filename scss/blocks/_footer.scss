@@ -1,0 +1,101 @@
+.footer {
+    margin-top: 110px;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer__maps {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.footer__maps + .footer__maps {
+    margin-top: 20px;
+}
+
+.footer__desc {
+    width: 380px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #1C1B1E;
+    opacity: 0.6;
+}
+
+.footer__map {
+    list-style: none;
+}
+
+.footer-company {
+    list-style: none;
+}
+
+.footer-company__offer-company {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+
+.footer-company__offer + .footer-company__offer {
+    margin-top: 13px;
+}
+
+.footer-adress {
+    list-style: none;
+}
+
+.footer-adress__contact + .footer-adress__contact {
+    margin-top: 13px;
+}
+
+.media {
+    padding-left: -70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 17px;
+    margin-bottom: 28px;
+}
+
+.media-desc{
+    margin-right: 25px;
+}
+
+.media-img{
+    margin-right: 25px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+        opacity: 0.7;
+    }
+
+    &__right{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
